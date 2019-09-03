@@ -14,3 +14,10 @@ if "Age" not in dict:
 dic1={'1':'10', '2':'20'}
 dic2={'3':'30', '4':'40'}
 dic3={'5':'50', '6':'60'}
+def Merge(dic1, dic2):
+    return(dic1.update(dic2))
+def Merge2(dic1, dic3):
+    return(dic1.update(dic3))
+print(Merge(dic1, dic2))
+print(Merge2(dic1, dic3))
+print(dic1)
